@@ -5,6 +5,7 @@
     "description": "A simple extension that allows you to rotate an image with a button on the web page.",
     "content_scripts": [
       {
+        
         "matches": ["<all_urls>"],
         "js": ["content.js"],
         "css": ["style.css"]

@@ -4,6 +4,7 @@ var images = document.getElementsByTagName("img");
 
 for (var i = 0; i < images.length; i++) {
 
+  
   var width = images[i].naturalWidth;
   var height = images[i].naturalHeight;
 
